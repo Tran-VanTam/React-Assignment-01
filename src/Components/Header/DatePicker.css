@@ -1,0 +1,30 @@
+.Date-picker {
+  background-color: #d6dfe3;
+  border-radius: 5px;
+  position: absolute;
+  color: #9c9c9c;
+  padding: 10px;
+  align-items: center;
+  transform: translate(0%, 0%);
+}
+.Date-picker button {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .Date-picker {
+    display: inline-block;
+    background-color: #d6dfe3;
+    border-radius: 5px;
+    position: absolute;
+    color: #9c9c9c;
+    align-items: center;
+    transform: translate(-60%, 0%);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

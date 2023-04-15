@@ -1,0 +1,19 @@
+.HotelDetail {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .HotelDetail {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

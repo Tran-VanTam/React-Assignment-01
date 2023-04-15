@@ -1,0 +1,43 @@
+.form {
+  background-color: #030a83;
+  color: #fff;
+  overflow: hidden;
+  height: 20vh;
+  margin-top: 20px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0px;
+}
+.form input {
+  margin: 10px 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.form button {
+  background-color: #1c7ed6;
+  padding: 12px;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .form {
+    display: block;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+  .form {
+    height: auto;
+  }
+}

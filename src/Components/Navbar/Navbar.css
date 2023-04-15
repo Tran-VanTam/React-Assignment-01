@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #030a83;
+  overflow: hidden;
+  height: 15vh;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.navbar-brand button {
+  margin: 10px;
+  color: #0f0f69;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-brand {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-brand a {
+    display: block;
+    margin: 10px;
+  }
+
+  .navbar-brand button {
+    display: block;
+    margin: 10px auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+  .navbar {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

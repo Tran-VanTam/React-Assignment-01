@@ -1,0 +1,33 @@
+.hotels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+h3 {
+  margin-top: 30px;
+  padding-left: 220px;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .hotels {
+    display: block;
+    margin: 30px 0px;
+    padding: 0px;
+  }
+  h3 {
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

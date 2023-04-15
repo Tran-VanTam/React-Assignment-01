@@ -1,0 +1,27 @@
+.city-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 50px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .city-list {
+    display: block;
+    margin: 160px 0px 0px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

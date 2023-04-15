@@ -1,0 +1,54 @@
+.city-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.city-info h4 {
+  margin-left: 15px;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  transform: translate(0%, -50%);
+}
+
+.city-info p {
+  position: absolute;
+  color: #fff;
+  top: 85%;
+  padding: 0px;
+  margin-left: 15px;
+  font-size: 22px;
+  transform: translate(0%, -50%);
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .city-info h4 {
+    margin-left: 15px;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+  .city-info p {
+    position: absolute;
+    color: #fff;
+    top: 60%;
+    padding: 0px;
+    margin-left: 15px;
+    font-size: 22px;
+    transform: translate(0%, -50%);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+}

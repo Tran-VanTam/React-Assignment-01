@@ -1,0 +1,61 @@
+.search-popup {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fcc419;
+  margin: 20px;
+}
+.search-popup h4 {
+  margin: 10px 10px;
+  font-size: 24px;
+}
+.search-popup label {
+  margin: 10px;
+}
+.search-popup h5 {
+  margin: 10px;
+}
+#Destination,
+#check-in-date {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.form-container form label {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.form-container form input {
+  width: 60px;
+}
+.search-popup button {
+  color: #fff;
+  background-color: #0e6ba8;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .search-popup {
+    grid-template-columns: 1fr;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}

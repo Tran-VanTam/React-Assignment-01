@@ -1,0 +1,26 @@
+.search-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 768px) {
+  /* hiển thị trên điện thoại */
+  .search-list {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hiển thị trên máy tính bảng */
+  .search-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hiển thị trên máy tính */
+  .search-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
